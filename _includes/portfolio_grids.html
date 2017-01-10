@@ -1,10 +1,10 @@
 
     <!-- Portfolio Grid Section -->
-    <section id="services" style="margin-top: 30px;">
+    <section id="services" style="margin-top: 30px; color: #888888">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Services</h2>
+                    <h2 style="color: #888888;">Services</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -18,10 +18,10 @@
                 learn more.
               </p>
               <ul>
-                {% for dat_hash in site.data.services.chiropractic_care %}
-                {% assign dat = dat_hash[1] %}
+                {% for dat_hash in (site.data.services.chiropractic_care | sort: "modal-id") %}
+                {% assign dat = dat_hash[1]  %}
                   {% if dat.description %}
-                    <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal">
+                    <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal" style="color: #888888;">
                   {% endif %}
                   <li>{{ dat.title }}</li>
                   {% if dat.description %}
@@ -37,10 +37,10 @@
                 any of the following:
               </p>
               <ul>
-                {% for dat_hash in site.data.services.acupuncture_and_tcm %}
+                {% for dat_hash in (site.data.services.acupuncture_and_tcm | sort: "modal-id") %}
                 {% assign dat = dat_hash[1] %}
                   {% if dat.description %}
-                    <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal">
+                    <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal" style="color: #888888;">
                   {% endif %}
                   <li>{{ dat.title }}</li>
                   {% if dat.description %}
