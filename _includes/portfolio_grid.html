@@ -10,7 +10,7 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                    <div class="col-xs-6 portfolio-item">
+                    <div class="col-xs-4 portfolio-item">
                       {% if post.direct %}
                         <a href="/faq" class="portfolio-link" data-toggle="modal">
                       {% else %}
@@ -20,7 +20,7 @@
 
                         </a>
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <h1 style="text-align: center;">{{ post.caption }}</h1>
+                        <h1 style="text-align: center; color: #808080;">{{ post.caption }}</h1>
                       </a>
                     </div>
                 {% endfor %}

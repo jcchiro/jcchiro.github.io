@@ -50,7 +50,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f1db";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -120,7 +120,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
@@ -198,8 +198,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #808080;
+    /*background: #{{ site.color.primary }};*/
 }
 
 section.portfolio {
@@ -490,4 +490,15 @@ footer .footer-below {
   /*background-image: url("img/water.jpg");
   background-repeat:no-repeat;
   background-size:cover;*/
+}
+
+.light-form {
+  background-color: white !important;
+}
+
+.light-button {
+  background-color: #808080;
+}
+.light-button:hover {
+  background-color: #23d3e0;
 }
