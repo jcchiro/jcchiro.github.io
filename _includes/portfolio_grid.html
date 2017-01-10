@@ -1,11 +1,11 @@
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Services</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -16,13 +16,12 @@
                       {% else %}
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                       {% endif %}
-                            <!-- <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-6x"></i>
-                                </div>
-                            </div> -->
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive portfolio-img" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive portfolio-img" style =" margin: 0 auto;"alt="{{ post.alt }}">
+
                         </a>
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <h1 style="text-align: center;">{{ post.caption }}</h1>
+                      </a>
                     </div>
                 {% endfor %}
             </div>

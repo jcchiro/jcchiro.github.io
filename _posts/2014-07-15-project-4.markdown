@@ -2,5 +2,6 @@
 layout: default
 modal-id: 4
 direct: true
+caption: FAQ
 img: icons3.png
 ---

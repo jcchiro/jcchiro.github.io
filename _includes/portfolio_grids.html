@@ -1,0 +1,58 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="services" style="margin-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Services</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+              <h1>Chiropractic Care</h1>
+              <p>
+                After your condition is diagnosed, our chiropractors offer
+                different treatment modalities, depending on your condition.
+                Each treatment is customized to meet the specific needs of
+                each patient. Click on each treatment modality below to
+                learn more.
+              </p>
+              <ul>
+                {% for dat_hash in site.data.services.chiropractic_care %}
+                {% assign dat = dat_hash[1] %}
+                  {% if dat.description %}
+                    <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal">
+                  {% endif %}
+                  <li>{{ dat.title }}</li>
+                  {% if dat.description %}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="row">
+              <h1>Acupuncture and Traditional Chinese Medicine</h1>
+              <p>
+                Depending on your condition, our acupuncturist may recommend
+                any of the following:
+              </p>
+              <ul>
+                {% for dat_hash in site.data.services.acupuncture_and_tcm %}
+                {% assign dat = dat_hash[1] %}
+                  {% if dat.description %}
+                    <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal">
+                  {% endif %}
+                  <li>{{ dat.title }}</li>
+                  {% if dat.description %}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+              <p>
+                If chiropractic and acupuncture are not appropriate for your
+                condition, our doctors will refer you to another healthcare
+                provider to better suit your needs.
+              </p>
+            </div>
+        </div>
+    </section>

@@ -23,6 +23,7 @@ a:active,
 a.active {
     outline: 0;
     color: #{{ site.color.primary }};
+    /*color: green;*/
 }
 
 h1,
@@ -148,7 +149,7 @@ header .intro-text .skills {
         max-width: 594px;
         line-height: 30px;
 
-        color: #23d3e0;
+        color: #888888;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -176,6 +177,7 @@ header .intro-text .skills {
 
 .navbar-default .navbar-nav>li>a {
     color: #888888;
+    /*navbar links*/
 }
 .navbar .navbar-nav li a:focus {
     outline: 0;
@@ -200,6 +202,10 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section.portfolio {
+  background: #{{ site.color.primary }};
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -216,7 +222,7 @@ section.success {
 }
 
 #portfolio .portfolio-img {
-    min-height: 266.66px;
+    max-height: 350px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -356,8 +362,8 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #7bd6e0;
-    /*background-color: #{{ site.color.secondary }};*/
+    /*background-color: #7bd6e0;*/
+    background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
@@ -467,7 +473,9 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    /*background-color: #{{ site.color.secondary-dark }} !important;*/
+
+    background-color: #{{ site.color.primary }} !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -478,24 +486,8 @@ footer .footer-below {
 }
 
 .welcome {
+  background: #fff;
   /*background-image: url("img/water.jpg");
   background-repeat:no-repeat;
   background-size:cover;*/
 }
-/*
-.someshit {
-  display: inline-block;
-  float: none;
-}
-
-.someothershit {
-  text-align: center;
-  /*margin-left: 30%;
-  margin-right: 30%;*/
-  /*width: 100%;
-  transition: width .8s ease;*/
-}
-.someothershit:hover {
-  text-align: right;
-  /*width: 100;*/
-}*/
