@@ -36,18 +36,18 @@ footer:
   # social: Around the Web
   credits: Contact
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-# social:
-#   - title: twitter
-#     url: http://twitter.com/jekyllrb
-#   - title: facebook
-#     url:
-#   - title: stack-overflow
-#     url: http://stackoverflow.com/questions/tagged/jekyll
-#   - title: bitbucket
-#     url: http://bitbucket.org/jekyll
-#   - title: github
-#     url: http://github.com/jekyll
+Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/jcchiroacu/
+  - title: instagram
+    url: https://www.instagram.com/jcchiroacu/
+  - title: google-plus
+    url: https://plus.google.com/116943358200096270542
+  - title: linkedin
+    url: https://www.linkedin.com/company/10662580?trk=prof-0-ovw-curr_pos
+  - title: yelp
+    url: https://www.yelp.com/biz/jersey-city-chiropractic-and-acupuncture-jersey-city-2
 
 # Postal address (add as many lines as necessary)
 address:

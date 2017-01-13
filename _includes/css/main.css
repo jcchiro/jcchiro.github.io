@@ -203,6 +203,8 @@ section.success {
 }
 
 section.portfolio {
+  padding-top: 50px;
+  padding-bottom: 10px;
   background: #{{ site.color.primary }};
 }
 
@@ -237,7 +239,7 @@ section.dr-profile {
 }
 
 #portfolio .portfolio-img {
-    max-height: 350px;
+    max-height: 200px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
