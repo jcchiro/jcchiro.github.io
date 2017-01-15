@@ -17,42 +17,52 @@
                 each patient. Click on each treatment modality below to
                 learn more.
               </p>
-              <ul>
-                {% for dat_hash in ((site.data.services.chiropractic_care | sort: "modal-id") | reverse ) %}
-                {% assign dat = dat_hash[1]  %}
-                  {% if dat.description %}
-                    <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal" style="color: #888888;">
-                  {% endif %}
-                  <li>{{ dat.title }}</li>
-                  {% if dat.description %}
-                    </a>
-                  {% endif %}
-                {% endfor %}
-              </ul>
+              <div class="col-xs-3">
+                <img src="/img/photos/073_jc_chiropractic.jpg" style="max-height: 250px;" class="img-responsive center-block">
+              </div>
+              <div class="col-xs-9">
+                <ul>
+                  {% for dat in (site.data.services.chiropractic_care | sort: "modal-id") %}
+                    {% if dat.description %}
+                      <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal" style="color: #888888;">
+                    {% endif %}
+                    <li>{{ dat.title }}</li>
+                    {% if dat.description %}
+                      </a>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
             </div>
             <div class="row">
-              <h1>Acupuncture and Traditional Chinese Medicine</h1>
+              <h1>Acupuncture</h1>
               <p>
                 Depending on your condition, our acupuncturist may recommend
                 any of the following:
               </p>
-              <ul>
-                {% for dat_hash in (site.data.services.acupuncture_and_tcm | sort: "modal-id" | reverse ) %}
-                {% assign dat = dat_hash[1] %}
-                  {% if dat.description %}
-                    <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal" style="color: #888888;">
-                  {% endif %}
-                  <li>{{ dat.title }}</li>
-                  {% if dat.description %}
-                    </a>
-                  {% endif %}
-                {% endfor %}
-              </ul>
+              <div class="col-xs-3">
+                <img src="/img/photos/143_jc_chiropractic.jpg" style="max-height: 250px;" class="img-responsive center-block">
+              </div>
+              <div class="col-xs-9">
+                <ul>
+                  {% for dat in (site.data.services.acupuncture | sort: "modal-id") %}
+                    {% if dat.description %}
+                      <a href="#portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" data-toggle="modal" style="color: #888888;">
+                    {% endif %}
+                    <li>{{ dat.title }}</li>
+                    {% if dat.description %}
+                      </a>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
+              <div class="col-xs-12">
               <p>
                 If chiropractic and acupuncture are not appropriate for your
                 condition, our doctors will refer you to another healthcare
                 provider to better suit your needs.
               </p>
+            </div>
             </div>
         </div>
     </section>

@@ -1,6 +1,5 @@
  <!-- Service Modals -->
- {% for dat_hash in site.data.services.chiropractic_care %}
- {% assign dat = dat_hash[1] %}
+ {% for dat in (site.data.services.chiropractic_care | sort: "modal-id") %}
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -16,7 +15,7 @@
                             <h2>{{ dat.title }}</h2>
                             <hr class="star-primary">
                             {% if dat.image %}
-                              <img src="/img/services/{{ dat.image }}" class="img-responsive img-centered" style="max-height: 200px;" alt="{{ post.alt }}">
+                              <img src="/img/{{ dat.image }}" class="img-responsive img-centered" style="max-height: 200px;" alt="{{ post.alt }}">
                             {% endif %}
 
                             <p style="color: gray;">{{ dat.description }}</p>
@@ -42,8 +41,7 @@
         </div>
     </div>
 {% endfor %}
-{% for dat_hash in site.data.services.acupuncture_and_tcm %}
-{% assign dat = dat_hash[1] %}
+{% for dat in (site.data.services.acupuncture | sort: "modal-id") %}
    <div class="portfolio-modal modal fade" id="portfolioModal-{{ dat.title | slugify }}-{{ dat.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
        <div class="modal-content">
            <div class="close-modal" data-dismiss="modal">
@@ -59,7 +57,7 @@
                            <h2>{{ dat.title }}</h2>
                            <hr class="star-primary">
                            {% if dat.image %}
-                             <img src="/img/services/{{ dat.image }}" class="img-responsive img-centered" style="max-height: 200px;" alt="{{ post.alt }}">
+                             <img src="/img/{{ dat.image }}" class="img-responsive img-centered" style="max-height: 200px;" alt="{{ post.alt }}">
                            {% endif %}
 
                            <p style="color: gray;">{{ dat.description }}</p>
