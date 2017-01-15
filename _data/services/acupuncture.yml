@@ -1,0 +1,22 @@
+- title: Acupuncture
+  modal-id: 1
+  description: Acupuncture involves inserting very thin needles at specific locations on the body. This is done to clear any blockages of qi, boost qi, and promote the smooth and normal flow of qi through the body’s meridians. It is a method of encouraging the body to promote natural healing and to improve functioning. It is known for not only treating disorders, but preventing disorders and improving general health.
+- title: Cupping
+  image: photos/109_jc_chiropractic.jpg
+  modal-id: 2
+  description: Cupping involves placing glass or plastic jars on the skin in a way that creates a vacuum by suctioning out air. The underlying tissue is raised partway into the cup. The purpose of cupping is to improve circulation, decrease pain, clear heat or toxins that may be contributing to your condition.  You usually will feel a tight sensation in the area of the cup, which most people find relaxing and soothing.
+- title: Moxibustion
+  modal-id: 3
+  description: Moxibustion is a technique that involves burning mugwort, also known as <i>artemisia vulgaris</i>, to promote healing. In Chinese medicine, moxibustion is used to expel cold and warm the meridians, stimulate the smooth flow of qi and blood, and maintain general health. Similar to lighting a candle or incense, moxibustion produces some smoke and a pungent odor.
+- title: Electroacupuncture
+  modal-id: 4
+  description: Electroacupuncture is a newer technique where a pulsating electrical current is applied to acupuncture points in oder to increase stimulation to the points. The frequency and intensity of the impulse is controlled.
+- title: Tuina Massage
+  modal-id: 5
+  description: Tui Na is a form of therapeutic Chinese massage used in combination with other treatment modalities. Different hand techniques are used to create rhythmic compression along meridians throughout the body. Most people find Tui Na to be relaxing and energizing.
+- title: Gua Sha
+  modal-id: 6
+  description: Gua sha, also known as ‘scraping,’ is an instrument-assisted technique that involves pressing and scraping an area of the body. The goal is to create temporary therapeutic petechiae, or raised redness known as “sha.” According to Chinese medicine, releasing sha helps remove blood stagnation. Research has shown that is has an anti-inflammatory effect.
+- title: Qi Gong or Tai Ji Exercises
+  modal-id: 7
+  description: Qi Gong and Tai ji are types of marital arts involving slow, deliberate movements coupled with proper breathing techniques. The positions and movements are low-impact, moving meditations that are performed standing or balancing. They are used to improve circulation and balance, and restore or boost your energy.

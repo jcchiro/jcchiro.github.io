@@ -1,0 +1,25 @@
+- title: Spinal Manipulation
+  image: services/spinal_manipulation.jpg
+  modal-id: 1
+  description: Also known as an adjustment, spinal manipulation is a procedure performed by hand on different joints in the body, especially the spine. The procedure uses a gentle controlled force in a specific direction. Sometimes an instrument may be used to assist the chiropractor. The goal of spinal manipulation is to restore or enhance joint function. It is used to decrease inflammation and pain.
+- title: Soft Tissue/Muscle Manual Therapy
+  image: /services/soft_tissue.jpg
+  modal-id: 2
+  description: As its name implies, this is a hands-on treatment of muscles, tendons, ligaments, or joints. Different techniques may be used that may involve stretching or applying pressure to the involved area. It is used to decrease pain, decrease muscle spasm or tension, remove adhesions or knots that have built up in the muscles, benefit nearby joints, and improve function.
+- title: Instrument Assisted Soft Tissue Mobilization
+  image: services/instrument_assisted.png
+  modal-id: 3
+  description: "Also known as IASTM, this technique is used to treat soft tissue dysfunction through the use of differently shaped tools/instruments. These instruments are effective at rapidly breaking down fascial restrictions/adhesions, and scar tissue. This technique is commonly used to treat: epicondylitis, carpal tunnel syndrome, neck and back pain, plantar fasciitis, tendinitis, post-surgical and traumatic scars, muscle strains, ligament sprains, and ITB syndrome."
+- title: Spinal Flexion Distraction
+  modal-id: 4
+  description: "Flexion distraction is a technique used to treat multiple conditions of the lumbar spine (lower back). The goal is to increase spinal motion, decrease symptoms from disc bulges or herniations, and take pressure off of nerves that may be injured. It is a gentle, non-force technique that requires a special table that slowly and repetitively distracts and flexes the spine. It is commonly used to treat: low back pain, disc injuries, arthritis, lower back stiffness, SI syndrome, spinal stenosis, leg pain/sciatica, failed back surgical syndrome."
+- title: Physiotherapy Modalities
+  modal-id: 5
+  description: Physiotherapy modalities include electrotherapeutic techniques like electrical muscle stimulation (EMS) or transcutaneous nerve stimulation (TENS), as well as moist heat, or cryotherapy. They are used to decrease pain, swelling, muscle spasms, and inflammation. The goal is to restore functional joint mobility and increase local blood flow to injured areas.
+- title: Therapeutic Exercises
+  modal-id: 6
+  description: Therapeutic exercises may be performed in the office or at home. They include a wide range of exercises that restore and build physical strength, endurance, flexibility, balance, and stability. The goal is to help decrease pain and inflammation, regain range of motion, rebuild muscle strength, and develop endurance.
+- title: Nutritional Counseling
+  modal-id: 7
+- title: Lifestyle and Ergonomic Advice
+  modal-id: 8
